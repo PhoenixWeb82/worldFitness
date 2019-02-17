@@ -1,0 +1,163 @@
+/***CSS**/
+html,
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+header {
+    background-image: url('sport-2264825_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:1000px;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.navbar .navbar-brand:hover {
+    color: yellow;
+}
+    
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color:  yellow;
+    border-bottom: 1px solid yellow;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 17rem;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text  .btn {
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.header-text  .btn:hover {
+    background-color: yellow;
+    color: #ffffff;
+}
+
+/**About**/
+.about {
+    background-image: url('weights-652488_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.about .about-text {
+    color: #ffffff;
+    padding-top: 5rem;
+}
+
+.about span {
+    color: yellow;
+}
+
+
+.1-page {
+    padding-top: 5rem;
+}
+
+.1-page .last-out {
+     font-weight: bold;
+}
+
+.youtube {
+    padding-top: 4rem;
+}
+
+/***Footer***/
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 19px;
+}
+
+/***Membership***/
+.membership {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.membership span {
+    color: yellow;
+}
+
+.pricing-table {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.pricing-table .btn {
+    border: 1px solid #000000;
+    background-color:yellow;
+    color: #131212;
+}
+
+.pricing-table .card {
+    border: 1px solid #000000;
+    margin: 10px;
+}
+
+.pricing-table .card-header {
+    background-color: black;
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 16.5rem;
+}
+
+/***Contact***/
+.contact {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.form-title  {
+    padding-top: 6rem;
+}
+
+ .first-footer {
+    margin-top: 22%;
+}
+
